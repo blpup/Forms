@@ -1,0 +1,159 @@
+﻿@charset "utf-8";
+/*
+Date: 03/12/2015
+Author: Wizard Digital Agency| Front-End Developer: Arthur Jones
+Author URL: http://www.wizard.com.tr
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* CSSMap */
+/* 1. Extra Fonts */
+/* 2. General Styles */
+/* 3. Responsive Styles */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* 1. Extra Fonts */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#MformAJ {
+    margin: 0 auto;
+    text-align: center;
+    border: dotted black thin;
+}
+
+    #MformAJ fieldset {
+        position: relative;
+        margin: 60px;
+        overflow: hidden;
+    }
+
+    #MformAJ input {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 3rem;
+        padding: 10px 0px 1px 0px;
+        display: block;
+        width: 100%;
+        font-weight: normal;
+        font-style: normal;
+        text-shadow: -1px 2px 0px rgba(110, 101, 163, 0.4);
+        border: none;
+        border-bottom: 1px dotted #ffffff;
+        background-color: transparent;
+        color: #ffffff;
+        transition: 0.3s ease;
+    }
+
+        #MformAJ input:focus ~ label, input.notempty ~ label {
+            -webkit-transform: scale(0.6, 0.6) translate(0px, -35px);
+        }
+
+    #MformAJ label {
+        text-align: left;
+        color: #ffffff;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+        text-shadow: -1px 2px 0px rgba(110, 101, 163, 0.4);
+        transform-origin: 0 50%;
+        -webkit-transform-origin: 0 50% 0;
+        -moz-transform-origin: 0 50% 0;
+        -ms-transform-origin: 0 50% 0;
+        -o-transform-origin: 0 50% 0;
+        transform-origin: 0 50% 0;
+    }
+
+    #MformAJ button {
+        width: 250px;
+        height: 40px;
+        border: none;
+        background-color: #32D188;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+        margin-bottom: 60px;
+    }
+
+    #MformAJ .form-arrow {
+        background-color: white;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 23px;
+        left: -35px;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+
+    #MformAJ .form-alert {
+        background-color: red;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 23px;
+        right: -35px;
+        transition: 0.3s ease;
+        color: white;
+        font-weight: bold;
+        font-size: 27px;
+        opacity: 0;
+    }
+
+        #MformAJ .form-alert.ready-active {
+            opacity:1;
+            right:3px;
+        }
+
+    #MformAJ .form-arrow.ready-active {
+        opacity:1;
+        left:3px;
+    }
+
+.arrow {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+}
+
+    .arrow.a-r {
+        border-left: 10px solid #CCD2FF;
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid transparent;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* 2. General Styles */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* 3. Responsive Styles */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+}
+
+@media only screen and (max-width: 499px) {
+}
